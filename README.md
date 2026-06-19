@@ -24,4 +24,4 @@ Goal: make a small change, then have Claude put it on a new branch and open a pu
 4. **Put it on a branch.** Ask Claude: *"Put my change on a new branch and commit it."* Claude keeps `main` clean and does the work on a branch.
 5. **Open the pull request.** Ask Claude: *"Open a pull request for this branch."* It reads your commits and writes the title and description.
 6. **Read what Claude wrote.** Open the PR on GitHub. Does the description explain *what* changed and *why* — and flag anything a reviewer should check?
-7. **Submit** the pull request link. CI runs your tests on the PR — it should come back green.
+7. **Open** the pull request against the main repository, not your fork. CI runs your tests on the PR — it should come back green.
